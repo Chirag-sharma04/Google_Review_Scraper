@@ -7,16 +7,9 @@ A Python desktop application that allows you to search for businesses on Google 
 - **Search Functionality**: Search for businesses by name or paste a direct Google Maps link
 - **Business Selection**: Choose from multiple search results to find the exact business
 - **Review Scraping**: Extract reviews, ratings, reviewer names, and dates
-- **Analytics**: View visual analytics of scraped reviews including:
-  - Rating distribution
-  - Average rating
-  - Review length analysis
 - **Export Options**: Export scraped data to CSV or Excel formats
 - **Anti-Detection Measures**: Uses undetected-chromedriver to bypass Google's bot detection
 
-## Screenshots
-
-*Screenshots would be included here*
 
 ## Requirements
 
@@ -29,6 +22,7 @@ A Python desktop application that allows you to search for businesses on Google 
   - matplotlib
   - numpy
   - tkinter (usually comes with Python)
+  - Streamlit
 
 ## Installation
 
@@ -36,7 +30,7 @@ A Python desktop application that allows you to search for businesses on Google 
 2. Run the script directly - it will automatically install required dependencies
 
 ```bash
-python google_maps_review_scraper.py
+ streamlit run  google_maps_review_scraper.py
 ```
 
 ## Usage
